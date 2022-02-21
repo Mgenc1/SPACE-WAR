@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6133759029513389401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6133759029513389403}
+  - component: {fileID: 6133759029513389400}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6133759029513389403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6133759029513389401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.18459643, y: 1.2, z: 2.5068188}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6133759029513389400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6133759029513389401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 216ec83c8ca6e9745ae8e62cb3d91e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RockSprefab: {fileID: 8623569450366908980, guid: 0eabbbd3d2e622244b9690de5a535110,
+    type: 3}
+  StartRockS: 3
+  BetweenRockS: 5
+  RockLprefab: {fileID: 8962677090956599088, guid: 546529ef9061705459b30507f52f837e,
+    type: 3}
+  StartRockL: 2
+  BetweenRockL: 3
+  RockXLprefab: {fileID: 7620775543944171565, guid: 011bc9335b4b2774e8514c743048ffa5,
+    type: 3}
+  StartRockXL: 1
+  BetweenRockXL: 1
